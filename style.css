@@ -315,3 +315,144 @@ body{
 }
 
 /* Pricing Section end */
+
+/* FAQ Section Start */
+
+.faq-section{
+    width:90%;
+    max-width:1000px;
+    margin:100px auto;
+}
+
+.faq-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.faq-title h1{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.faq-title p{
+    font-size:18px;
+    color:#6b7280;
+}
+
+.faq-container details{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    margin-bottom:18px;
+    padding:20px 25px;
+    transition:0.3s;
+}
+
+.faq-container details:hover{
+    border-color:#3b82f6;
+}
+
+.faq-container summary{
+    font-size:20px;
+    font-weight:600;
+    cursor:pointer;
+    list-style:none;
+    position:relative;
+    padding-right:25px;
+}
+
+.faq-container summary::-webkit-details-marker{
+    display:none;
+}
+
+.faq-container summary::after{
+    content:"+";
+    position:absolute;
+    right:0;
+    color:#3b82f6;
+    font-size:26px;
+    font-weight:bold;
+}
+
+.faq-container details[open] summary::after{
+    content:"−";
+}
+
+.faq-container p{
+    margin-top:18px;
+    color:#555;
+    line-height:1.7;
+    font-size:17px;
+}
+
+/* FAQ Section End */
+
+
+/* Footer Start */
+
+.footer{
+    background-color:#0f172a;
+    padding:35px 0;
+    margin-top:80px;
+}
+
+.footer-container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-left img{
+    width:140px;
+    height:auto;
+    display:block;
+    margin-bottom:10px;
+}
+
+.footer-left p{
+    color:#cbd5e1;
+    font-size:14px;
+}
+
+.footer-right{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    gap:20px;
+}
+
+.footer-links{
+    display:flex;
+    gap:25px;
+}
+
+.footer-links a{
+    text-decoration:none;
+    color:#cbd5e1;
+    font-size:15px;
+}
+
+.footer-links a:hover{
+    color:#3b82f6;
+}
+
+.footer-icons{
+    display:flex;
+    gap:20px;
+}
+
+.footer-icons i{
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+}
+
+.footer-icons i:hover{
+    color:#3b82f6;
+}
+
+/* Footer End */
