@@ -125,100 +125,7 @@ body{
     text-align: center;
     font-size: 4rem;
     margin-top: 50px;
-    margin
-.normal ul li{
-    list-style:none;
-    position:relative;
-    padding-left:22px;
-    margin:18px 0;
-    color:#555;
-}
-
-
-/* Pro Card */
-
-.pro{
-    width:340px;
-    background:#0f172a;
-    color:white;
-    border:1px solid #0f172a;
-    border-radius:15px;
-    padding:30px;
-    box-shadow:0 20px 40px rgba(0,0,0,.25);
-}
-
-.pro h4{
-    color:#3b82f6;
-}
-
-.pro span{
-    color:#94a3b8;
-}
-
-.pro ul li{
-    color:#e2e8f0;
-}
-
-.pro ul{
-    margin:30px 0;
-}
-
-.pro ul li{
-    list-style:none;
-    position:relative;
-    padding-left:22px;
-    margin:18px 0;
-}
-.normal ul li::before,
-.pro ul li::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 8px;
-    width: 8px;
-    height: 8px;
-    background-color: #3b82f6;
-    border-radius: 50%;
-}
-
-/* Shared button styles */
-.price-button,
-.pro-button{
-    width:100%;
-    padding:16px;
-    border-radius:10px;
-    font-size:16px;
-    font-weight:600;
-    cursor:pointer;
-    transition:background-color 0.3s ease, color 0.3s ease;
-}
-
-/* Standard & Team buttons */
-.price-button{
-    border:2px solid #3b82f6;
-    background:white;
-    color:#3b82f6;
-}
-
-.price-button:hover{
-    background:#3b82f6;
-    color:white;
-}
-
-/* Pro button */
-.pro-button{
-    border:none;
-    background-color:#2563eb;
-    color:#fff;
-    
-}
-
-.pro-button:hover{
-    background-color:#1e40af;
-}
-
-
--bottom: 50px;
+    margin-bottom: 50px;
 }
 
 /* Speaker End */
@@ -287,8 +194,6 @@ body{
     flex-wrap:wrap;
 }
 
-
-
 .normal{
     width:340px;
     background:#fff;
@@ -327,8 +232,6 @@ body{
     color:#555;
 }
 
-
-
 .pro{
     width:340px;
     background:#0f172a;
@@ -344,6 +247,7 @@ body{
 .pro h4{
     color:#3b82f6;
 }
+
 .pro h2{
     font-size:50px;
     margin-bottom:5px;
@@ -366,7 +270,6 @@ body{
     color:#e2e8f0;
 }
 
-
 .normal ul li::before,
 .pro ul li::before{
     content: "";
@@ -379,7 +282,6 @@ body{
     border-radius: 50%;
 }
 
-
 .price-button,
 .pro-button{
     width:100%;
@@ -390,7 +292,6 @@ body{
     cursor:pointer;
     transition:background-color 0.3s ease, color 0.3s ease;
 }
-
 
 .price-button{
     border:2px solid #3b82f6;
@@ -403,7 +304,6 @@ body{
     color:white;
 }
 
-
 .pro-button{
     border:none;
     background-color:#2563eb;
@@ -414,4 +314,4 @@ body{
     background-color:#1e40af;
 }
 
-/* Pricing Section End */
+/* Pricing Section end */
